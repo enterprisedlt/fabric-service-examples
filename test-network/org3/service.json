@@ -1,0 +1,28 @@
+{
+  "organization": {
+    "name": "org3",
+    "domain": "example.com",
+    "location": "San Francisco",
+    "state": "California",
+    "country": "US"
+  },
+  "network": {
+    "name": "test_net",
+    "orderingNodes": [
+      {
+        "name": "osn1",
+        "port": 5001
+      }
+    ],
+    "peerNodes": [
+      {
+        "name": "peer0",
+        "port": 5010,
+        "couchDB": {
+          "port": 5011
+        }
+      }
+    ]
+  },
+  "certificateDuration": "P2Y"
+}

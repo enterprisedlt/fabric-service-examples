@@ -1,0 +1,4 @@
+/*
+ */
+rootProject.name = 'fabric-service-examples'
+include('chain-code:example')
